@@ -9,7 +9,7 @@ body {
     height: 560px; 
     border: solid black;
     background: white;
-    margin: 2% auto 0 auto;
+    margin: 0 auto;
 }
 
 .grid div {
@@ -25,7 +25,6 @@ body {
 h1 {
     color: white;
     text-align: center;
-    margin-top: 75px;
 }
 
 h3 {
@@ -34,6 +33,14 @@ h3 {
 
 #scoreBoard {
     display: flex;
+    margin-top: 15px;
+}
+
+.gameBoard {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 button {
